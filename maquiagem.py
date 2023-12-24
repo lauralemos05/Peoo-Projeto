@@ -10,7 +10,7 @@ class Cliente:
 class MaquiadoraApp:
     def __init__(self, master):
         self.master = master
-        self.master.title("Agendamento Maquiagem")
+        self.master.title("Agendamento de Maquiagem")
         
         self.clientes = []
 
