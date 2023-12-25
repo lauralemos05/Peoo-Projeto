@@ -1,11 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
-class Cliente:
-    def __init__(self, nome, horario, dia):
-        self.nome = nome
-        self.horario = horario
-        self.dia = dia
+
 
 class MaquiadoraApp:
     def __init__(self, master):
