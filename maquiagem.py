@@ -5,7 +5,7 @@ class Cliente:
     def __init__(self, nome, horario, dia):
         self.nome = nome
         self.horario = horario
-        self.di = dia
+        self.dia = dia
 
 class MaquiadoraApp:
     def __init__(self, master):
