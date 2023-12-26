@@ -38,7 +38,7 @@ class MaquiadoraApp:
         self.button_agendar = tk.Button(self.master, text="Agendar Maquiagem", command=self.agendar_maquiagem)
         self.button_agendar.grid(row=3, column=0, columnspan=2, pady=10)
 
-        self.listbox_clientes = tk.Listbox(self.master, height=10, width=50)  # Ajuste o tamanho aqui
+        self.listbox_clientes = tk.Listbox(self.master, height=10, width=50)   
         self.listbox_clientes.grid(row=4, column=0, columnspan=2, pady=10)
 
         self.button_cancelar = tk.Button(self.master, text="Cancelar Agendamento", command=self.cancelar_agendamento)
